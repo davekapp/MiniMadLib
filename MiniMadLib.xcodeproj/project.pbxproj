@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E180ECB14D22DC0005DE4B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E180ECA14D22DC0005DE4B5 /* UIKit.framework */; };
+		4E180ECD14D22DC0005DE4B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E180ECC14D22DC0005DE4B5 /* Foundation.framework */; };
+		4E180ECF14D22DC0005DE4B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E180ECE14D22DC0005DE4B5 /* CoreGraphics.framework */; };
+		4E180ED514D22DC0005DE4B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E180ED314D22DC0005DE4B5 /* InfoPlist.strings */; };
+		4E180ED714D22DC0005DE4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E180ED614D22DC0005DE4B5 /* main.m */; };
+		4E180EDB14D22DC0005DE4B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E180EDA14D22DC0005DE4B5 /* AppDelegate.m */; };
+		4E180EDE14D22DC0005DE4B5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E180EDC14D22DC0005DE4B5 /* MainStoryboard_iPhone.storyboard */; };
+		4E180EE114D22DC0005DE4B5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E180EDF14D22DC0005DE4B5 /* MainStoryboard_iPad.storyboard */; };
+		4E180EE414D22DC0005DE4B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E180EE314D22DC0005DE4B5 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E180EC614D22DBF005DE4B5 /* MiniMadLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMadLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E180ECA14D22DC0005DE4B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E180ECC14D22DC0005DE4B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E180ECE14D22DC0005DE4B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E180ED214D22DC0005DE4B5 /* MiniMadLib-Info.plist */ = {isa = PBXFileReference; path = "MiniMadLib-Info.plist"; sourceTree = "<group>"; };
+		4E180ED414D22DC0005DE4B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E180ED614D22DC0005DE4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E180ED814D22DC0005DE4B5 /* MiniMadLib-Prefix.pch */ = {isa = PBXFileReference; path = "MiniMadLib-Prefix.pch"; sourceTree = "<group>"; };
+		4E180ED914D22DC0005DE4B5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E180EDA14D22DC0005DE4B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E180EDD14D22DC0005DE4B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4E180EE014D22DC0005DE4B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4E180EE214D22DC0005DE4B5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4E180EE314D22DC0005DE4B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E180EC314D22DBF005DE4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E180ECB14D22DC0005DE4B5 /* UIKit.framework in Frameworks */,
+				4E180ECD14D22DC0005DE4B5 /* Foundation.framework in Frameworks */,
+				4E180ECF14D22DC0005DE4B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E180EBB14D22DBF005DE4B5 = {
+			isa = PBXGroup;
+			children = (
+				4E180ED014D22DC0005DE4B5 /* MiniMadLib */,
+				4E180EC914D22DC0005DE4B5 /* Frameworks */,
+				4E180EC714D22DBF005DE4B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E180EC714D22DBF005DE4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E180EC614D22DBF005DE4B5 /* MiniMadLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E180EC914D22DC0005DE4B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E180ECA14D22DC0005DE4B5 /* UIKit.framework */,
+				4E180ECC14D22DC0005DE4B5 /* Foundation.framework */,
+				4E180ECE14D22DC0005DE4B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E180ED014D22DC0005DE4B5 /* MiniMadLib */ = {
+			isa = PBXGroup;
+			children = (
+				4E180ED914D22DC0005DE4B5 /* AppDelegate.h */,
+				4E180EDA14D22DC0005DE4B5 /* AppDelegate.m */,
+				4E180EDC14D22DC0005DE4B5 /* MainStoryboard_iPhone.storyboard */,
+				4E180EDF14D22DC0005DE4B5 /* MainStoryboard_iPad.storyboard */,
+				4E180EE214D22DC0005DE4B5 /* ViewController.h */,
+				4E180EE314D22DC0005DE4B5 /* ViewController.m */,
+				4E180ED114D22DC0005DE4B5 /* Supporting Files */,
+			);
+			path = MiniMadLib;
+			sourceTree = "<group>";
+		};
+		4E180ED114D22DC0005DE4B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E180ED214D22DC0005DE4B5 /* MiniMadLib-Info.plist */,
+				4E180ED314D22DC0005DE4B5 /* InfoPlist.strings */,
+				4E180ED614D22DC0005DE4B5 /* main.m */,
+				4E180ED814D22DC0005DE4B5 /* MiniMadLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E180EC514D22DBF005DE4B5 /* MiniMadLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E180EE714D22DC0005DE4B5 /* Build configuration list for PBXNativeTarget "MiniMadLib" */;
+			buildPhases = (
+				4E180EC214D22DBF005DE4B5 /* Sources */,
+				4E180EC314D22DBF005DE4B5 /* Frameworks */,
+				4E180EC414D22DBF005DE4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniMadLib;
+			productName = MiniMadLib;
+			productReference = 4E180EC614D22DBF005DE4B5 /* MiniMadLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E180EBD14D22DBF005DE4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4E180EC014D22DBF005DE4B5 /* Build configuration list for PBXProject "MiniMadLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E180EBB14D22DBF005DE4B5;
+			productRefGroup = 4E180EC714D22DBF005DE4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E180EC514D22DBF005DE4B5 /* MiniMadLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E180EC414D22DBF005DE4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E180ED514D22DC0005DE4B5 /* InfoPlist.strings in Resources */,
+				4E180EDE14D22DC0005DE4B5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4E180EE114D22DC0005DE4B5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E180EC214D22DBF005DE4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E180ED714D22DC0005DE4B5 /* main.m in Sources */,
+				4E180EDB14D22DC0005DE4B5 /* AppDelegate.m in Sources */,
+				4E180EE414D22DC0005DE4B5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E180ED314D22DC0005DE4B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E180ED414D22DC0005DE4B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E180EDC14D22DC0005DE4B5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E180EDD14D22DC0005DE4B5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4E180EDF14D22DC0005DE4B5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E180EE014D22DC0005DE4B5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E180EE514D22DC0005DE4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E180EE614D22DC0005DE4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E180EE814D22DC0005DE4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniMadLib/MiniMadLib-Prefix.pch";
+				INFOPLIST_FILE = "MiniMadLib/MiniMadLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E180EE914D22DC0005DE4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniMadLib/MiniMadLib-Prefix.pch";
+				INFOPLIST_FILE = "MiniMadLib/MiniMadLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E180EC014D22DBF005DE4B5 /* Build configuration list for PBXProject "MiniMadLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E180EE514D22DC0005DE4B5 /* Debug */,
+				4E180EE614D22DC0005DE4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E180EE714D22DC0005DE4B5 /* Build configuration list for PBXNativeTarget "MiniMadLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E180EE814D22DC0005DE4B5 /* Debug */,
+				4E180EE914D22DC0005DE4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E180EBD14D22DBF005DE4B5 /* Project object */;
+}
