@@ -89,6 +89,10 @@
 }
 
 - (IBAction)generateStory:(id)sender {
+  NSString *filledInText = [self.storyTemplate.text stringByReplacingOccurrencesOfString:@"<place>" withString:self.place.text];
+  filledInText = [filledInText stringByReplacingOccurrencesOfString:@"<verb>" withString:self.verb.text];
+  filledInText = [filledInText stringByReplacingOccurrencesOfString:@"<number>" withString:self.number.text];
+  self.story.text = filledInText;  
 }
 
 - (IBAction)endEditing:(id)sender {
